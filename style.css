@@ -143,6 +143,7 @@ li:hover {
 .img0 {
   display: flex;
   gap: 2rem;
+  width: 500px;
 }
 .img1 {
   padding-top: 10px;
