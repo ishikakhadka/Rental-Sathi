@@ -11,8 +11,8 @@ ul {
   list-style: none;
 }
 a {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 /* navabar */
@@ -109,10 +109,10 @@ li:hover {
   color: brown;
 }
 .icon a {
-  color: rgb(240, 187, 106);
+  color: rgb(240, 187, 106) !important;
 }
 .icon a:hover {
-  color: brown;
+  color: brown !important;
 }
 .top {
   display: flex;
@@ -131,6 +131,7 @@ li:hover {
   background-color: rgb(108, 45, 45);
   border-radius: 10px;
   margin-top: 20px;
+  color: bisque;
 }
 .bton a {
   text-decoration: none;
@@ -177,6 +178,49 @@ li:hover {
   .form {
     margin: auto;
   }
+}
+
+/* rooms */
+.btn-explore {
+  background: rgb(108, 45, 45) !important;
+  color: bisque !important;
+}
+.rooms {
+  color: brown;
+}
+.card h5 {
+  color: rgb(108, 45, 45);
+  font-weight: bold;
+}
+
+/* services */
+.services {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px 10px rgba(177, 175, 175, 0.283);
+  padding: 10px;
+}
+.services h3 {
+  color: brown;
+}
+.service-box h3 {
+  color: black;
+}
+.service-box i {
+  color: rgb(108, 45, 45);
+  font-size: 24px !important;
+  font-weight: bold;
+}
+.service-box:hover {
+  background: white;
+  padding: 5px;
+  box-shadow: 5px 5px 7px 10px rgba(177, 175, 175, 0.283);
+  border-radius: 10px;
+}
+.footer {
+  background: rgba(235, 233, 233, 0.792);
+  margin-top: 2rem;
+  padding: 10px;
 }
 @media (max-width: 568px) {
   .img0 {
